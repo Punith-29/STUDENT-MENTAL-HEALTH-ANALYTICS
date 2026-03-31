@@ -1,0 +1,14 @@
+USE batch5;
+select * from student_data;
+
+
+select count(*) from student_data;
+
+SELECT Depression, COUNT(*) AS Total
+FROM student_data
+GROUP BY Depression;
+
+show tables;
+
+select * from student_data_cleaned;
+select count(*) from student_data_cleaned
